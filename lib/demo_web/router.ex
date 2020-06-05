@@ -21,6 +21,7 @@ defmodule DemoWeb.Router do
     live "/", PageLive, :index
     live "/clock", ClockLive
     live "/counter", CounterLive
+    live "/autocomplete", AutocompleteLive
   end
 
   # Other scopes may use custom stacks.
